@@ -54,13 +54,4 @@ public class MarcoCasillaVerificacion extends JFrame
         negritaCheckBox.addItemListener(manejador);
         cursivaCheckBox.addItemListener(manejador);
     }
-
-    public static void main(String[] args)
-    {
-        MarcoCasillaVerificacion ventana = new MarcoCasillaVerificacion();
-
-        ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        ventana.setSize(400, 150);
-        ventana.setVisible(true);
-    }
 }

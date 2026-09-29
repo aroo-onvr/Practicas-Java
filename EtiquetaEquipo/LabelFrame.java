@@ -1,4 +1,4 @@
-package Practicas.EtiquetaEquipo;
+package EtiquetaEquipo;
 import java.awt.*;
 import javax.swing.JFrame;
 import javax.swing.JLabel;

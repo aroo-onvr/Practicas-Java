@@ -1,4 +1,4 @@
-package Practicas.EtiquetaIndividual;
+package EtiquetaIndividual;
 import java.awt.*;
 import javax.swing.JFrame;
 import javax.swing.JLabel;

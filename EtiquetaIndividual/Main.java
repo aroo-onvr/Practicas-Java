@@ -1,4 +1,4 @@
-package Practicas.EtiquetaIndividual;
+package EtiquetaIndividual;
 
 import javax.swing.JFrame;
 

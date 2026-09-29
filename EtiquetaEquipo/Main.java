@@ -1,4 +1,4 @@
-package Practicas.EtiquetaEquipo;
+package EtiquetaEquipo;
 
 import javax.swing.JFrame;
 

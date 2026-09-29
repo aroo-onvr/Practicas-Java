@@ -22,6 +22,16 @@ public class LabelFrame extends JFrame {
     private JLabel etiqueta3Ingrid;
     private JLabel etiqueta4Ingrid;
 
+    private JLabel etiqueta1Fernando;
+    private JLabel etiqueta2Fernando;
+    private JLabel etiqueta3Fernando;
+    private JLabel etiqueta4Fernando;
+
+    private JLabel etiqueta1Walter;
+    private JLabel etiqueta2Walter;
+    private JLabel etiqueta3Walter;
+    private JLabel etiqueta4Walter;
+
     public LabelFrame(){
         super("Prueba Label");
         setLayout(new FlowLayout());
@@ -92,5 +102,51 @@ public class LabelFrame extends JFrame {
         etiqueta4Ingrid = new JLabel("Chiquis(perro)");
         etiqueta4Ingrid.setToolTipText("Mascota");
         add(etiqueta4Ingrid);
+
+        // Fernando
+
+        Icon imagen = new ImageIcon(getClass().getResource( "imagenFernando.png"));
+        etiqueta1Fernando = new JLabel(
+                "Nombre: Fernando Torres Martínez",
+                imagen,
+                SwingConstants.LEFT);
+        etiqueta1Fernando.setToolTipText("Nombre");
+        add(etiqueta1Fernando);
+
+        etiqueta2Fernando = new JLabel("Gustos: Burritos, Fórmula 1");
+        etiqueta2Fernando.setToolTipText("Gusto");
+        etiqueta2Fernando.setHorizontalTextPosition(SwingConstants.CENTER);
+        etiqueta2Fernando.setVerticalTextPosition(SwingConstants.BOTTOM);
+        add(etiqueta2Fernando);
+
+        etiqueta3Fernando = new JLabel("Pasatiempo: Escuchar música, jugar basket");
+        etiqueta3Fernando.setToolTipText("Pasatiempo");
+        add(etiqueta3Fernando);
+
+        etiqueta4Fernando = new JLabel("Mascota: Zeus(Perro)");
+        etiqueta4Fernando.setToolTipText("Mascota");
+        add(etiqueta4Fernando);
+
+        // Walter
+
+        Icon imagenWalter = new ImageIcon(getClass().getResource("imagenWalter.png"));
+        etiqueta1Walter = new JLabel(
+                "Nombre: Christopher Walter Galicia Flores",
+                imagenWalter,
+                SwingConstants.LEFT);
+        etiqueta1Walter.setToolTipText("NOMBRE");
+        add(etiqueta1Walter);
+
+        etiqueta2Walter = new JLabel("Básquet");
+        etiqueta2Walter.setToolTipText("GUSTOS");
+        add(etiqueta2Walter);
+
+        etiqueta3Walter = new JLabel("Jugar básquet");
+        etiqueta3Walter.setToolTipText("PASATIEMPO");
+        add(etiqueta3Walter);
+
+        etiqueta4Walter = new JLabel("Mi perrita Canela");
+        etiqueta4Walter.setToolTipText("MASCOTA");
+        add(etiqueta4Walter);
     }
 }
